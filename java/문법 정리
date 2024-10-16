@@ -1,12 +1,49 @@
+##코딩의 흐름
+함수를 호출(인자를 전달) -> 함수가 선언된 곳으로 가서 작업 수행
+ -> 수행을 마치고 나면 함수를 호출한 곳으로 흐름이 돌아간다.(반환된 값이 있다면 값을 가지고 돌아온다.)
+    
+##메서드
+-메서드는 클래스(Class)의 영역으로,특정 기능을 하는 코드를 묶어서 나타내는 것이다.
+
+-메서드를 작성하는 법
+```java
+// 접근제한자 반환형 함수명 (매개변수){
+//	작업 내용
+// }
+```
+
+##접근제한자
+- pubilc -> 모든 곳 
+  private -> 현재 클래스
+  default -> 현재 패키지
+  protected -> 상속관계
+
+##반환형
+-반환하려고 하는 데이터의 타입-> 기본자료형 뿐 아니라 참조자료형 가능
+ ex)String, 우리가 만든 클래스의 타입도 가능
+ 반환을 안하면 void
+
+##함수명
+-함수의 이름(직관적인 의미의 함수명을 짓는것이 좋다.)
+
+##매개변수
+-함수가 호출될 때 값을 전달받아 저장하는 지역변수
+
 ##자료형
-Java의 자료형은 기본자료형(Primitive type)과 참조자료형(Reference type)이 있다.
+-Java의 자료형은 기본자료형(Primitive type)과 참조자료형(Reference type)이 있다.
 
-기본 자료형(Primitive type) :
-short, int, long, float, double, char, boolean, byte 등이 있다.
-숫자형 : short(2byte), int(4byte), long(8byte)
+-기본 자료형(Primitive type) :
+ short, int, long, float, double, char, boolean, byte 등이 있다.
+ 숫자형 : short(2byte), int(4byte), long(8byte)
 
-참조자료형(Reference type):
-클래스(class), 배열(Array), 열거, 인터페이스 등이 있다.
+-참조자료형(Reference type):
+ 클래스(class), 배열(Array), 열거, 인터페이스 등이 있다.
 
+##반복문
+```java
+for( int i = 0 ; i < 100; i++){
+	// i의 값이 0부터 시작해 0,1,2,3,4,...100미만까지 증가
+}
+```
 
 
