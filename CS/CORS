@@ -6,3 +6,16 @@
 
 - 하지만, 서버에서 다른 서버로의 API요청은 CORS 정책의 적용을 받지 않는다.
   즉, 서버 대 서버 통신에서는 CORS가 브라우저 처럼 중재하지 않기 때문에 제한없이 자유롭게 통신할 수 있다.
+
+### 요청 방식에 따라 다른 CORS발생 여부
+1. <img> , <video> , <script> , <link> 태그 등
+ (기본적으로 Cross-Origin 정책을 지원한다.)
+- <link> 태그의 href 에서 다른 사이트의 .css 리소스에 접근하는 것이 가능하다.
+- <img> 태그의 scr 에서 다른 사이트의 .png , .jpg 등의 리소스에 접근하는 것이 가능하다.
+- <script> 태그의 src 에서 다른 사이트의 .js 리소스에 접근하는 것이 가능
+ ( type = "module" 속성은 제외)
+```html
+<link rel = "stylesheet" href = "..." />
+<script src = "..."></script>
+<img src = "..." />
+```
