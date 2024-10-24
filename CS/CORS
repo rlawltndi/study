@@ -19,3 +19,5 @@
 <script src = "..."></script>
 <img src = "..." />
 ```
+2. XMLHttpRequest , Fetch API 스크립트
+ (기본적으로 Same-Origin 정책을 따른다.)
