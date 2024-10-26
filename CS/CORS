@@ -5,16 +5,16 @@
 - 한 origin(요청을 보낸 도메인)에서 실행중인 웹 어플리케이션이 다른 출처의 리소스에 접근할 수 있도록 허용하는 메커니즘
 
 ### CORS정책 등장 배경 
-(ex)클라이언트를 3000포트, 서버를 8080포트에서 실행
--error :  " XMLHttpRequest cannot load 'http://localhost:3000'. No 'Access-Control-Allow-Origin' header is present on the requested resource. 
-            Origin 'http://localhost:8080' is therefore not allowed access. "
+(ex)
+- 클라이언트를 3000포트, 서버를 8080포트에서 실행시
+ErrorMessage :  " XMLHttpRequest cannot load 'http://localhost:3000'. No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+                  Origin 'http://localhost:8080' is therefore not allowed access. "
 요청한 도메인이 다르기 때문에 에러가 발생한다.
-개발시 API를 사용하는 경우와 클라이언트와 서버를 분리하여 개발하는 경우도 많이 때문에 해당 정책으로 인한
-불편함이 발생하는 해결하기 위한 정책이 CORS 정책이다.
+개발시 API를 사용하는 경우와 클라이언트와 서버를 분리하여 개발하는 경우도 많이 때문에 
+해당 정책으로 인한 불편함이 발생하는 해결하기 위한 정책이 CORS 정책이다.
 
 ### 요청 방식에 따라 다른 CORS발생 여부
-1. <img> , <video> , <script> , <link> 태그 등
- (기본적으로 Cross-Origin 정책을 지원한다.)
+1. <img> , <video> , <script> , <link> 태그 등 (기본적으로 Cross-Origin 정책을 지원한다.)
 - <link> 태그의 href 에서 다른 사이트의 .css 리소스에 접근하는 것이 가능하다.
 - <img> 태그의 scr 에서 다른 사이트의 .png , .jpg 등의 리소스에 접근하는 것이 가능하다.
 - <script> 태그의 src 에서 다른 사이트의 .js 리소스에 접근하는 것이 가능
@@ -24,11 +24,10 @@
 <script src = "..."></script>
 <img src = "..." />
 ```
-2. XMLHttpRequest , Fetch API 스크립트
- (기본적으로 Same-Origin 정책을 따른다.)
+
+2. XMLHttpRequest , Fetch API 스크립트 (기본적으로 Same-Origin 정책을 따른다.)
 - 다른 도메인의 소스에 대해 자바스크립트 ajax 요청 API호출시
 - 웹 폰트 CSS파일 내 @front-face 에서 다른 도메인의 폰트 사용시
-
 - 자바스크립트에서의 요청은 <u>서로 다른 도메인에 대한 요청을 보안상 제한한다.</u> 
   브라우저는 기본적으로 하나의 서버 연결만 허용되도록 설정되어 있기 때문이다.
 
