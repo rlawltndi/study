@@ -15,7 +15,7 @@ ex) AWS, Google Cloud
 - 단점  
   - 직접 구성하고 유지보수를 해야한다.  
   - 클라우드 기반 인프라에서 기존 애플리케이션을 보호하는데 어려움이 있다.  
-#
+
 2. PaaS (Platform as a Service)  
    애플리케이션을 만들고 배포 할 수 있는 플랫폼을 제공하는 서비스  
 ex) Heroku, Google App Engine
@@ -30,7 +30,7 @@ ex) Heroku, Google App Engine
   - 클라우드 서비스 제공업체에 때라 공급업체 종속이 문제가 될 수 있다.  
   - 운영 및 전체 인프라에 대한 낮은 제어 수준  
   - 제한된 맞춤 설정  
-#
+
 3. SaaS (Software as a Service)  
    인터넷을 통해 소프트웨어를 제공하는 서비스   
 ex) Google Docs, Dropbox, Slack
