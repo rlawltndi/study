@@ -2,7 +2,7 @@
   - CI/CD는 지속적 통합(Continuous Integration) 및 지속적 제공/배포(Continuous Delivery/Deployment)를 의미하며
  , 소프트웨어 개발 라이프사이클을 간소화하고 가속화하는 것을 목표로 한다.
 
-### CI(Continuous Integration)
+- CI(Continuous Integration)
   - 지속적인 통합을 의미한다.
   - 개발자를 위해 빌드와 테스트를 자동화하는 과정이다.
   - CI는 변경 사항을 자동으로 테스트해 애플리케이션에 문제가 없다는것을 보장한다.
