@@ -5,10 +5,9 @@
 - 한 origin(요청을 보낸 도메인)에서 실행중인 웹 어플리케이션이 다른 출처의 리소스에 접근할 수 있도록 허용하는 메커니즘
 
 ### CORS정책 등장 배경 
-(ex)
-- 클라이언트를 3000포트, 서버를 8080포트에서 실행시  
-ErrorMessage :  " XMLHttpRequest cannot load 'http://localhost:3000'. No 'Access-Control-Allow-Origin' header is present on the requested resource. 
-                  Origin 'http://localhost:8080' is therefore not allowed access. "  
+- (ex) 클라이언트를 3000포트, 서버를 8080포트에서 실행시  
+        ErrorMessage :  " XMLHttpRequest cannot load 'http://localhost:3000'. No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+                        Origin 'http://localhost:8080' is therefore not allowed access. "  
   - 요청한 도메인이 다르기 때문에 에러가 발생한다.
   - 개발시 API를 사용하는 경우와 클라이언트와 서버를 분리하여 개발하는 경우도 많이 때문에   
   - 해당 정책으로 인한 불편함이 발생하는 해결하기 위한 정책이 CORS 정책이다.  
