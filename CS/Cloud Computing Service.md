@@ -5,8 +5,7 @@
 1. laas(Infrastructure as a Service)  
  서버,네트워크,저장공간 같은 기본적인 컴퓨터 자원을 인터넷을 통해 빌려주는 서비스  
 ex) AWS, Google Cloud
-
-- 장점  
+- 장점
   - 인프라에 대한 제어 수준이 가장 높다.  
   - 필요에 따라 확장이 가능하다.  
   - 단일 장애점이 없어 안정성이 높다.  
@@ -20,8 +19,7 @@ ex) AWS, Google Cloud
 2. PaaS (Platform as a Service)  
    애플리케이션을 만들고 배포 할 수 있는 플랫폼을 제공하는 서비스  
 ex) Heroku, Google App Engine
-
-- 장점  
+- 장점
  - 완전하고 사용하기 쉬운 개발 플랫폼에 즉시 엑세스 가능  
  - 유지보수 및 인프라 보안을 책임지는 클라우드 서비스 제공 업체  
  - 모든 기기에서 모든 인터넷 연결을 통해 사용이 가능하다.  
@@ -36,7 +34,6 @@ ex) Heroku, Google App Engine
 3. SaaS (Software as a Service)  
    인터넷을 통해 소프트웨어를 제공하는 서비스   
 ex) Google Docs, Dropbox, Slack
-
 - 장점  
  - 소프트웨어를 다운로드하지 않고 웹 브라우저를 통해 바로 사용가능하다.  
  - 간편하게 설정하고 사용하기 좋다.  
