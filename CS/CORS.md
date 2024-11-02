@@ -24,9 +24,9 @@ Origin 'http://localhost:8080' is therefore not allowed access. "
 
 ### 요청 방식에 따라 다른 CORS발생 여부   
 1. img, video, script, link 태그 등 (기본적으로 Cross-Origin 정책을 지원한다.)
-- <link>태그의 href 에서 다른 사이트의 .css 리소스에 접근하는 것이 가능하다.
-- <img>태그의 scr 에서 다른 사이트의 .png , .jpg 등의 리소스에 접근하는 것이 가능하다.
-- <script>태그의 src 에서 다른 사이트의 .js 리소스에 접근하는 것이 가능
+- link 태그의 href 에서 다른 사이트의 .css 리소스에 접근하는 것이 가능하다.
+- img 태그의 scr 에서 다른 사이트의 .png , .jpg 등의 리소스에 접근하는 것이 가능하다.
+- script 태그의 src 에서 다른 사이트의 .js 리소스에 접근하는 것이 가능
  ( type = "module" 속성은 제외)
 ```html
 <link rel = "stylesheet" href = "..." />
