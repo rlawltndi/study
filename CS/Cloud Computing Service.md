@@ -2,7 +2,7 @@
 - 인터넷을 통해 서버,저장 공간, 데이터 베이스,네트워크,소프트웨어 등을 제공하는 서비스이다.
 
 ## 클라우드 컴퓨팅 서비스 종류
-1. laas(Infrastructure as a Service)
+1. laas(Infrastructure as a Service)  
    서버,네트워크,저장공간 같은 기본적인 컴퓨터 자원을 인터넷을 통해 빌려주는 서비스  
 ex) AWS, Google Cloud
 - 장점  
@@ -31,7 +31,7 @@ ex) Heroku, Google App Engine
   운영 및 전체 인프라에 대한 낮은 제어 수준  
   제한된 맞춤 설정  
 
-3. SaaS (Software as a Service)
+3. SaaS (Software as a Service)  
    인터넷을 통해 소프트웨어를 제공하는 서비스   
 ex) Google Docs, Dropbox, Slack
 - 장점  
