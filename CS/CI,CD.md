@@ -1,4 +1,4 @@
-### CI/CD
+### CI/CD  
   - CI/CD는 지속적 통합(Continuous Integration) 및 지속적 제공/배포(Continuous Delivery/Deployment)를 의미하며
  , 소프트웨어 개발 라이프사이클을 간소화하고 가속화하는 것을 목표로 한다.
 
