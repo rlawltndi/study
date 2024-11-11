@@ -20,6 +20,7 @@
 - 1개의 속성은 1개의 속성 값을 갖는다.
 <img width="568" alt="엔터티 관계도" src="https://github.com/user-attachments/assets/9643e543-652f-4596-956d-c9979ada50db">
 #
+
 ### 분류
 1. 특성에 따른 분류
 - 기본 속성
