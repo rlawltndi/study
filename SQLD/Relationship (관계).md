@@ -30,16 +30,16 @@
 - 관계차수 : 1
 ```
 CREATE TABLE students (
-    student_id INT PRIMARY KEY,
-    name VARCHAR(100)
+    student_id INT PRIMARY KEY, -- student_id를 기본 키로 설정하여 각 학생을 고유하게 식별 가능
+    name VARCHAR(100) -- 학생의 이름 저장
 );
 
 CREATE TABLE student_details (
-    student_id INT PRIMARY KEY,
-    address VARCHAR(255),
-    phone_number VARCHAR(50),
-    FOREIGN KEY (student_id) REFERENCES students(student_id)
+    student_id INT,  -- 외래 키로 사용 할 student_id
+    address VARCHAR(255), -- 주소
+    phone_number VARCHAR(50), -- 전화번호 
+    PRIMARY KEY (student_id),  -- student_id를 기본 키로 설정
+    FOREIGN KEY (student_id) REFERENCES students(student_id)  -- 외래 키
 );
-
 ```
 
