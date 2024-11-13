@@ -15,5 +15,31 @@
   - 각 두개의 관계명을 갖는다.
   - 관계명은 능동적 또는 수동적으로 명명된다.
   - 추상적인 동사를 피하고 현재형으로 표기한다.
+#
+### 관계의 기수성
+- 기수성 : 집합의 크기를 나타내는 개념
+- 관계의 기수성 : 관계에 참여하는 엔터티 인스턴스의 수를 나타내는 것
+#
+### 관계차수
+- 두 테이블 간의 관계가 몇개의 요소를 연결하는지를 나타낸다. 주로 관계형 데이터 베이스에서
+  다양한 관계의 종류를 설명하는데 사용된다.
 
-  
+### 관계차수의 종류
+1. 1:1 관계 (One-to-One Relationship)
+- 한 테이블의 한 행이 다른 테이블의 한 행과 연결된다.
+- 관계차수 : 1
+```
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+
+CREATE TABLE student_details (
+    student_id INT PRIMARY KEY,
+    address VARCHAR(255),
+    phone_number VARCHAR(50),
+    FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+
+```
+
