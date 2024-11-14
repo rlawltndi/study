@@ -42,4 +42,9 @@ CREATE TABLE student_details (
     FOREIGN KEY (student_id) REFERENCES students(student_id)  -- 외래 키
 );
 ```
+- student 테이블은 학생의 기본정보를 ,student_details 테이블은 해당 학생의 상세정보를 저장한다.
+- student_details 테이블은 student 테이블의 student_id를 외래키로 사용하여 두 테이블을 연결한다.
+- student_details 테이블의 각 레코드는 반드시 student 테이블의 한 학생과 연결된다.
+- 두 테이블을 연결함으로써 student 테이블의 학생정보가 변경되거나 삭제되면 해당 학생의 student_details의
+  정보다 함께 수정되거나 삭제될 수 있도록 관계가 설정되어있다.
 
