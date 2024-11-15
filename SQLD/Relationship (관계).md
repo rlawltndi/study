@@ -21,7 +21,7 @@
 - 관계의 기수성 : 관계에 참여하는 엔터티 인스턴스의 수를 나타내는 것
 #
 ### ERD 표기방식
-(https://github.com/user-attachments/assets/28900601-824a-4446-a3b4-a88b65509e10)
+[(https://github.com/user-attachments/assets/28900601-824a-4446-a3b4-a88b65509e10)](https://github.com/rlawltndi/study/issues/3#issue-2660399536)
 #
 ### 관계차수
 - 두 테이블 간의 관계가 몇개의 요소를 연결하는지를 나타낸다. 주로 관계형 데이터 베이스에서
