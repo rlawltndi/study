@@ -32,4 +32,6 @@
 ![image](https://github.com/user-attachments/assets/f8aa7a86-9fee-4128-8004-13b77a48dd7d)
 #
 ### 1:1 (일대일 관계)
+![image](https://github.com/user-attachments/assets/40b7cbce-5c30-40d9-a66d-77bf355f0c16)
+- 하나의 엔터티는 하나의 다른 엔터티 값을 갖는다.
 
