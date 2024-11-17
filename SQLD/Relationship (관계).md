@@ -28,4 +28,7 @@
 - M:N (다대다 관계)
 - 1:N (일대다 관계)
 - 필수 : 선택
-  
+
+![image](https://github.com/user-attachments/assets/f8aa7a86-9fee-4128-8004-13b77a48dd7d)
+#
+
