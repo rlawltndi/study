@@ -22,5 +22,10 @@
 #
 ### ERD 표기방식
 ![image](https://github.com/user-attachments/assets/1e669ade-ca06-42f5-8198-fe9fca92229b)
-
-
+#
+### 관계차수의 종류
+- 1:1 (일대일 관계)
+- M:N (다대다 관계)
+- 1:N (일대다 관계)
+- 필수 : 선택
+  
