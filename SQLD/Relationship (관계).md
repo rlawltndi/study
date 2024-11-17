@@ -31,4 +31,5 @@
 
 ![image](https://github.com/user-attachments/assets/f8aa7a86-9fee-4128-8004-13b77a48dd7d)
 #
+### 1:1 (일대일 관계)
 
