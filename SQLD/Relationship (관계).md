@@ -21,5 +21,6 @@
 - 관계의 기수성 : 관계에 참여하는 엔터티 인스턴스의 수를 나타내는 것
 #
 ### ERD 표기방식
+![image](https://github.com/user-attachments/assets/1e669ade-ca06-42f5-8198-fe9fca92229b)
 
 
