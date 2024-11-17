@@ -37,15 +37,19 @@
 
 ### M:N (다대다 관계)
 - 두개의 엔터티가 서로 여려 개의 관계를 갖는다.
+![image](https://github.com/user-attachments/assets/2dc11208-8265-4d24-91af-2c832fb5185b)
 
 ### 1:N (일대다 관계)
 - 하나의 엔터티는 다른 엔터티의 값을 여러개 갖는다.
+![image](https://github.com/user-attachments/assets/5d473b88-2220-4af7-accd-229a792b9399)
 
 ### 필수적 관계
 - 하나의 엔터티는 반드시 관계된 엔터티의 값을 가져야한다.
+![image](https://github.com/user-attachments/assets/3f817506-374c-49dd-a51f-4bb0cdb6926a)
 
 ### 선택적 관계
 - 하나의 엔터티에 관계된 다른 엔터티의 값의 유무를 선택 할 수 있다.
+![image](https://github.com/user-attachments/assets/3dab8af3-10ab-4a84-8124-a9ce1a648642)
 
 ### 
 
