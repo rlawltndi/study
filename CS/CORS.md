@@ -55,10 +55,10 @@ Origin 'http://localhost:8080' is therefore not allowed access. "
 2. 프록시 서버 사용하기
 - 프록시 서버를 사용하여 웹 애플리케이션에서 리소스로의 요청을 전달하면  
   웹 애플리케이션이 리소스와 동일한 출처에서 요청을 보내는 것 처럼 보이므로 CORS에러를 방지 할 수 있다.
-- (ex)  
-  http://example.com 주소의 웹 애플리케이션이 http://api.example.com 리소스에서 데이터를 요청한다면  
-  웹 애플리케이션은 직접적으로 리소르에 요청하는 대신 http://example-proxy.com 프록시 서버에 요청을 보낼 수 있다.  
-  그러면 프록시 서버가 http://api.example.com 으로 요청을 전달하고, 응답을 다시 웹 애플리케이션에 반환한다.  
-  이런 방식을 사용하면 http://example-proxy.com 가 요청한 것 처럼 보여 CORS에러를 방지 할 수 있다.  
+- ex)  
+  "http://example.com" 주소의 웹 애플리케이션이 "http://api.example.com" 리소스에서 데이터를 요청한다면  
+  웹 애플리케이션은 직접적으로 리소르에 요청하는 대신 "http://example-proxy.com" 프록시 서버에 요청을 보낼 수 있다.  
+  그러면 프록시 서버가 "http://api.example.com" 으로 요청을 전달하고, 응답을 다시 웹 애플리케이션에 반환한다.  
+  이런 방식을 사용하면 "http://example-proxy.com" 가 요청한 것 처럼 보여 CORS에러를 방지 할 수 있다.  
 
   
