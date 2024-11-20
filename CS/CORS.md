@@ -41,7 +41,7 @@ Origin 'http://localhost:8080' is therefore not allowed access. "
 ### CORS 에러 대응하기
 1. 서버에서 "Access-Control-Allow-Origin" 응답 헤더 세팅하기
 - 서버에서 "Access-Control-Allow-Origin" 헤더를 설정해서 요청을 수락할 출처를 명시적으로 지정 가능  
-  이 헤더를 세팅하면 출처가 달라도 "https://example.com"의 리소스 요청을 허용한다.
+  이 헤더를 세팅하면 출처가 달라도 "https://example.com" 의 리소스 요청을 허용한다.
 ```
 'Access-Control-Allow-Origin': <origin> | *
 ```
