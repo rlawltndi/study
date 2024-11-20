@@ -19,7 +19,7 @@ Origin 'http://localhost:8080' is therefore not allowed access. "
 2. 동일 출처 정책은 잠재적으로 해로올 수 있는 문서를 분리해 , 공격받을 수 있는 경로를 줄인다.
 3. 웹 브라우저 보안을 위해 Protocol, Host, Port가 동일한 서버로만 ajax 요청을 주고 받을 수 있도록 한 정책이다.
    - Protocol, Host, Port (현재 페이지에서 개발자도구(f12)를 열고 "location"을 입력하면 확인가능하다.)
-4. 같은 Origin(요청을 보낸 도메인)출처의 서버로만 요청을 주고 받을 수 있다.
+4. Origin(요청을 보낸 도메인)출처가 같은 서버로만 요청을 주고 받을 수 있다.
 #
 ### 요청 방식에 따라 다른 CORS발생 여부   
 1. img, video, script, link 태그 등 (기본적으로 Cross-Origin 정책을 지원한다.)
