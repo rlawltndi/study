@@ -43,6 +43,7 @@
 3. 네이티브 코드와의 통합
 - 복잡한 네이티브 기능을 사용할 때는 Java, Swift,Object-C와 같은 네이티브 코드를 작성해야 한다.
 #
+
 ### React Native와 React의 차이점
 - React는 웹 애플리케이션 개발에 특화되어 있고 , React-Native는 모바일 애플리케이션 개발에 특화되어있다.
 - React Native의 고유한 컴포넌트와 기능
@@ -51,4 +52,8 @@
   - StyleSheet : React Native에서 UI를 스타일링하기 위해 사용하는 API이며  
                      JavaScript 객체로 스타일을 정의한다. CSS와 유사
 
-### 
+#
+### Navigation
+1. Stack Navigation
+2. Bottom Tab Navigation
+3. Drawer Navigation
