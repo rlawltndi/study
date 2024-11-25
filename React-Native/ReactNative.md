@@ -24,5 +24,5 @@
 - JSX : UI를 구성하는 데 사용되는 JavaScript 문법의 확장이다. HTML과 비슷하지만 JavaScript 코드 안에서 작성된다.
 - 컴포넌트 : 작은 컴포넌트들을 조합하여 큰 애플리케이션을 구성한다. 각 컴포넌트는 UI요소와 로직을 담당한다.
 - 네이티브 컴포넌트 : iOS 및 Android의 기본 UI요소들을 래핑한 네이티브 컴포넌트를 제공한다. ex) Text,Button,View
-- Expo : React Native를 사용하기 위한 툴과 서비스의 집합인 Expo는 빠른 개발을 위한 환경을 제공한다.  
+- Expo : React Native를 사용하기 위한 툴과 서비스의 집합인 Expo는 빠른 개발을 위한 환경을 제공한다.
          Expo를 사용하면 앱을 빌드하고 배포하는 과정을 간소화 할 수 있다.
