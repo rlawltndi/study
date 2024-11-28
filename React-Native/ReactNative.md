@@ -76,5 +76,5 @@
  - 스크린 공간 절약
    - 화면의 대부분을 탭 화면에 할애하고, 드로어 메뉴는 화면을 가리지 않으면서도 여러 화면을 제공할 수 있다.  
  - 대체 네비게이션 방법
-   - 앱에 Bottom Tab Navigation이나 Stack Navigation이 이미 있다면,
+   - 앱에 Bottom Tab Navigation이나 Stack Navigation이 이미 있다면,  
      Drawer Navigation은 보조적인 역할을 하며 다양한 기능을 더할 수 있다.  
