@@ -52,7 +52,7 @@
 |---|------|
 |View|모바일 환경에 최적화된 레이아웃 컴포넌트 , 웹의 div태그와 유사|
 |Text|텍스트를 렌더링 할 때 사용된다, 웹의 p태그와 유사|
-|StyleSheet|React Native에서 ui를 스타일링 하기위해 사용하는 API이며  JavaScript 객체로 스타일을 정의한다. CSS와 유사|
+|StyleSheet|React Native에서 ui를 스타일링 하기위해 사용하는 API이며, JavaScript 객체로 스타일을 정의한다. CSS와 유사|
 #
 
 ### Navigation
