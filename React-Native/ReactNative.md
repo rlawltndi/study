@@ -47,12 +47,12 @@
 ### React Native와 React의 차이점
 - React는 웹 애플리케이션 개발에 특화되어 있고 , React-Native는 모바일 애플리케이션 개발에 특화되어있다.
 - React Native의 고유한 컴포넌트와 기능
-  - View : 모바일 환경에 최적화된 레이아웃 컴포넌트, 웹의 div태그와 유사
-  - Text : 텍스트를 렌더링 할 때 사용한다. 웹의 p태그와 유사
-  - StyleSheet : React Native에서 UI를 스타일링하기 위해 사용하는 API이며  
-                     JavaScript 객체로 스타일을 정의한다. CSS와 유사
-
+|---|---|
+|View|모바일 환경에 최적화된 레이아웃 컴포넌트 , 웹의 div태그와 유사|
+|Text|텍스트를 렌더링 할 때 사용된다, 웹의 p태그와 유사|
+|StyleSheet|React Native에서 UI를 스타일링 하기위해 사용하는 API이며  JavaScript 객체로 스타일을 정의한다. CSS와 유사|
 #
+
 ### Navigation
 1. Stack Navigation
  - 단순함
