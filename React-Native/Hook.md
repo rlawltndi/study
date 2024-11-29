@@ -21,7 +21,7 @@ useEffect(() => {
   return () => {
     // 정리 로직
   };
-}, [dependencies]); //,[dependencies] (선택사항):  이 배열이 값이 변경될 때만 useEffect 실행 
+}, [dependencies]); //,[dependencies] : 이 배열이 값이 변경될 때만 useEffect 실행(산택사항) 
 
 ```
 
