@@ -25,14 +25,14 @@ useEffect(() => {
 
 ```
 
-```
+```js
 useEffect(() => {
   console.log('컴포넌트가 마운트되었습니다.');
 }, []); // 컴포넌트가 처음 마운트될 때 한 번만 실행된다.
 
 ```
 
-```
+```js
 useEffect(() => {
   const intervalId = setInterval(() => {
     console.log('1초마다 실행');
