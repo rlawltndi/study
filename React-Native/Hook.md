@@ -50,6 +50,37 @@ useEffect(() => {
 - Context는 컴포넌트 트리에서 'props'를 통해 값을 전달하지 않고 전역적으로 공유할 수 있게 해주는 기능이다.
 - "props drilling"을 피할 수 있다.
 - props drilling : 상위 컴포넌트에서 하위 컴포넌트로 값을 여러 단계를 걸쳐 전달.
+
+```js
+import React, { createContext, useContext, useState } from "react";
+
+// Step 1: Context 생성
+const MyContext = createContext();
+
+const App = () => {
+  const [message, setMessage] = useState("Hello from Context");
+
+  return (
+    // Step 2: Context 값 제공
+    <MyContext.Provider value={message}>
+      <Child />
+      <button onClick={() => setMessage("Updated message from Context")}>
+        Update Context
+      </button>
+    </MyContext.Provider>
+  );
+};
+
+const Child = () => {
+  // Step 3: Context 값 사용
+  const contextValue = useContext(MyContext);
+
+  return <div>{contextValue}</div>;
+};
+
+export default App;
+
+```
 #
 ### useRef
 #
