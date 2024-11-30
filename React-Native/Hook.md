@@ -13,7 +13,6 @@
 - 두 번째 매개변수로 의존성 배열을 전달하면 특적 값의 변화에 따라 효과를 실행 할 수 있다.
 - 컴포넌트가 언마운트 되거나, 의존성이 변경될 때 실행할 cleanUp함수도 반환 가능하다.
 
-- 사용 예시
 ```js
 useEffect(() => {
   // 사이드 이펙트 로직
@@ -52,6 +51,7 @@ useEffect(() => {
 - "props drilling"을 피할 수 있다.
 - props drilling : 상위 컴포넌트에서 하위 컴포넌트로 값을 여러 단계를 걸쳐 전달.
 
+- 사용 예시
 ```js
 import React, { createContext, useContext, useState } from "react";
 
