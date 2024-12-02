@@ -91,7 +91,32 @@ export default App;
 ### useRef
 - 함수형 컴포넌트에서 변수값을 유지하거나 DOM 요소에 접근할 수 있도록 도와주는 기능이다.  
 - ref 객체를 반환, 이 객체는 current라는 속성을 가지며 , 이 속성에 값을 저장할 수 있다.  
-- useRef로 저장된 값은 컴포넌트가 리렌더링되어도 유지된다.   
+- useRef로 저장된 값은 컴포넌트가 리렌더링되어도 유지된다.
+
+```js
+import React, { useRef } from 'react';
+
+function MyComponent() {
+  const inputRef = useRef(null); // useRef를 사용하여 ref 객체 생성
+
+  const handleClick = () => {
+    // inputRef.current를 통해 DOM에 접근할 수 있음
+    inputRef.current.focus();
+  };
+
+  return (
+    <div>
+      <input ref={inputRef} type="text" />
+      <button onClick={handleClick}>Focus the input</button>
+    </div>
+  );
+}
+
+```
+- useRef와 useState의 차이점  
+  - useState는 상태를 변경하면 컴포넌트가 리렌더링된다.
+  - useRef로 저장된 값은 컴포넌트를 리렌더링하지 않고 계속 유지된다.
+  - useRef는 컴포넌트의 상태를 추적하거나 변경하지 않고, 참조값만 유지하고싶을 때 유용하다.
 #
 ### useCallback
 #
