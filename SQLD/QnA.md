@@ -13,3 +13,24 @@
 - Null값을 가질 수 없고 중복될 수 없다.
 - 데이터의 무결성을 유지하고, 테이블 간의 관계를 설정하는데 필수이다.
 - 기본 키를 통해 빠르고 효율적인 데이터 검색이 가능, 외래 키를 통해 다른 테이블과의 연결을 가능하게 한다.
+
+### 외래키란? 
+- 한 테이블의 열이 다른 테이블의 기본 키를 참조하는 키 이다.
+- 외래키는 테이블 간의 관계를 정의하고 , 데이터의 참조 무결성을 유지하는데 사용된다.
+
+### 데이터베이스에서 제약조건의 목적
+- 데이터의 무결성과 일관성을 유지하기 위해 사용되는 규칙이다.
+- NOT NULL : 열에 NULL 값을 허용하지 않는다.
+- UNIQUE : 열의 모든 값이 고유해야한다.
+- PRIMARY KEY : NOY NULL, UNIQUE 두 속성을 모두 갖는다. 테이블의 기본키로 사용
+- FOREIGN KEY : 다른 테이블의 기본키를 참조하여 테이블 간의 관계를 유지한다.
+- CHECK : 열의 값이 특정조건을 만족해야한다.
+- DEFAULT : 열의 기본값 설정
+
+### SQL이란?
+- SQL이란 관계형 데이터베이스를 관리하고 조작하기 위한 표준언어이다.
+- DDL (Data Definition Language) : 데이터베이스의 구조를 정의하거나 수정한다. (CREATE, ALTER, DROP)
+- DML (Data Manipulation Language) : 데이터베이스의 데이터를 조작한다. (SELECT, INSERT, UPDATE, DELETE)
+- DCL (Data Control Language) : 데이터베이스의 접근 권한과 보안을 관리한다. (GRANT,REMOVE)
+- TCL (Transaction Control Language) : 트렌젝션의 시작과 종료를 관리한다. (COMMIT, ROLLBACK, SAVEPOINT) 
+
