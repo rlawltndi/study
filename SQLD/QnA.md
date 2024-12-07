@@ -32,5 +32,10 @@
 - DDL (Data Definition Language) : 데이터베이스의 구조를 정의하거나 수정한다. (CREATE, ALTER, DROP)
 - DML (Data Manipulation Language) : 데이터베이스의 데이터를 조작한다. (SELECT, INSERT, UPDATE, DELETE)
 - DCL (Data Control Language) : 데이터베이스의 접근 권한과 보안을 관리한다. (GRANT,REMOVE)
-- TCL (Transaction Control Language) : 트렌젝션의 시작과 종료를 관리한다. (COMMIT, ROLLBACK, SAVEPOINT) 
+- TCL (Transaction Control Language) : 트렌젝션의 시작과 종료를 관리한다. (COMMIT, ROLLBACK, SAVEPOINT)
 
+### 정형 데이터와 비정형 데이터의 차이점
+- 정형 데이터 (Structured Data) : 고정된 필드에 저장되는 데이터로 , 관계형 데이터베이스의 테이블과 같은 명확한 구조를 갖는다.
+                                (스프레드 시트, 데이터베이스 테이블 등)
+- 비정형 데이터 (Unstructured Data) : 고정된 구조가 없는 데이터로, 텍스트 파일, 이미지, 동영상 등이 해당
+                                     (eamil, 문서 파일 ,멀티미디어 컨텐츠) 
