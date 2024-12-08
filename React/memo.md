@@ -10,3 +10,8 @@
 ### 프로젝트 디렉토리로 이동
 - cd "project name"
 
+### 캐리 정리 후 설치
+- npm cache clean --force
+- npm install
+
+
