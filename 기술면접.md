@@ -45,7 +45,7 @@
 - 여러 테이블에 분산되어있는 관련 데이터를 조합하여 원하는 정보를 추출할 수 있다.
 - 데이터베이스의 정규화로 인해 나누어진 테이블을 재결합하는데 필수적이다.
 
-- INNER JOIN, LEFT JOIN, RIGHT JOIN ,FULL JOIN이란?
+### INNER JOIN, LEFT JOIN, RIGHT JOIN ,FULL JOIN이란?
 - INNER JOIN : 왼쪽 테이블의 모든 행을 반환하고 , 오른쪽 테이블에서 일치하는 행이있으면 함께 반환
               일치하지 않으면 NULL
 - RIGHT JOIN : 오른쪽 테이블의 모든 행을 반환하고 , 왼쪽 테이블에서 일치하는 행이 있으면 함께 반환
