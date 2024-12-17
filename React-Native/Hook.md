@@ -146,14 +146,59 @@ const [state , dispatch] = useReducer(reducer, initialState)
 ```
 
 - EX
+1. reducer 함수
   - reducer 함수는 두 가지 인자를 받는다.
     - state : 현재 상태
     - action : 상태를 업데이트 하기 위한 액션 객체
-- reducer 함수는 새로운 상태를 반환해야 하고, 상태를 직접 변경하지 않고 , 항상 새로운 상태 객체를 반환한다.
+     
+  - reducer 함수는 새로운 상태를 반환해야 하고, 상태를 직접 변경하지 않고 , 항상 새로운 상태 객체를 반환한다.
+```
+const reducer = (state,action) =>{
+  switch (action,type) {
+  case "INCREMENT":
+    return{count : state.count + 1}
+  case "DECREMENT":
+    return{count : state.count - 1}
+  defalt:
+    return state
+}
+}
+``` 
+2. useReducer 사용
+- useReducer 훅을 사용하여 상태와 dispatch 함수를 얻는다. dispatch 함수는 액션 객체를 받아서 상태를 업데이트한다.
+```
+import React, { useReducer } from 'react';
+
+const Counter=()=>{
+  const initialState = {count : 0}
+
+//useReducer 훅 사용
+const [state, dispatch] = useReducer(reducer, initialState)
+
+return (
+  <div>
+    <p>Count : {state.count}</p>
+    <button onClick={() => dispatch({ type: 'INCREMENT' })}>Increment</button>
+    <button onClick={() => dispatch({ type: 'DECREMENT' })}>Decrement</button>
+  </div>
+)
+}
+```
+- userReducer를 사용하는 상황, 이유
+  -  상태가 복잡할 때 : 여러 개의 상태 변수를 다뤄야 하는 경우, useState 보다 useReducer가 더 적합하다.
+  -  상태 업데이트 로직이 복잡할 때 : 액션에 따른 상태 변화를 명확히 구분하고 , 상태 변경의 흐음을 쉽게
+      관리할 수 있다.
+  - 배경 작업을 처리할 때 : 여러 단계의 로직을 처리하는 복잡한 비즈니스 로직을 구현할 때 유리하다.
+
+- useState와 useReducer 의 차이점
+  - useState는 간단한 상태 관리를 할 때 사용한다. 상태가 간단하거나 하나의 값만 관리할 때 적합하다.
+  - useReducer는 상태 관리가 복잡할 때 유용하고 , 액션을 통해 상태를 업데이트 하는 구조이기 때문에
+    여러 가지 상태변화를 관리할 수 있다.
+
+- useReducer는 복잡한 상태 업데이트 로직을 간결하게 관리하고 , 액션 기반의 흐름을 통해 상태를 제어할 수 있는
+  훅이다.
+  여러 상태를 처리하거나 상태 업데이트가 복잡할 때 useState 보다 더 적합하다.
   
-
-
-
 
 
 
