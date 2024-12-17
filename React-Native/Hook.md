@@ -147,8 +147,8 @@ const [state , dispatch] = useReducer(reducer, initialState)
 
 - EX
   - reducer 함수는 두 가지 인자를 받는다.
-  -- state : 현재 상태
-  -- action : 상태를 업데이트 하기 위한 액션 객체
+    - state : 현재 상태
+    - action : 상태를 업데이트 하기 위한 액션 객체
 - reducer 함수는 새로운 상태를 반환해야 하고, 상태를 직접 변경하지 않고 , 항상 새로운 상태 객체를 반환한다.
   
 
