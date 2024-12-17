@@ -137,3 +137,27 @@ const memoizedCallback = useCallback(() => {
 ### useMemo
 #
 ### useReducer
+- 세 가지 인자를 받는다.
+  - reducer 함수 : 상태를 어떻게 업데이트할지 정의하는 함수이다.
+  - 초기 상태 : 상태의 초기 값이다.
+  - 초기화 함수(선택) : 초기 상태를 설정하는 함수이다.
+```
+const [state , dispatch] = useReducer(reducer, initialState)
+```
+
+- EX
+  - reducer 함수는 두 가지 인자를 받는다.
+  -- state : 현재 상태
+  -- action : 상태를 업데이트 하기 위한 액션 객체
+- reducer 함수는 새로운 상태를 반환해야 하고, 상태를 직접 변경하지 않고 , 항상 새로운 상태 객체를 반환한다.
+  
+
+
+
+
+
+
+
+
+
+
