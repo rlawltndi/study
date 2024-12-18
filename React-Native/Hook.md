@@ -53,7 +53,7 @@ useEffect(() => {
 
 #
 ### useContext
--함수형 컴포넌트에서 Context 값을 쉽게 접근할 수 있게 해준다.  
+- 함수형 컴포넌트에서 Context 값을 쉽게 접근할 수 있게 해준다.  
 - Context는 컴포넌트 트리에서 'props'를 통해 값을 전달하지 않고 전역적으로 공유할 수 있게 해주는 기능이다.  
 - "props drilling"을 피할 수 있다.  
 - props drilling : 상위 컴포넌트에서 하위 컴포넌트로 값을 여러 단계를 걸쳐 전달.  
