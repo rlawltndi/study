@@ -166,7 +166,7 @@ const memoizeValue = useMemo(()=>{
 const [state , dispatch] = useReducer(reducer, initialState)
 ```
 
-- EX
+- 사용 예시
 1. reducer 함수
   - reducer 함수는 두 가지 인자를 받는다.
     - state : 현재 상태
