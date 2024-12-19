@@ -1,5 +1,6 @@
 ### 주요 Spring 어노테이션들은 의존성 주입, 트렌잭션 처리, 웹 관련 등 여러 분야에 결쳐 사용된다.
-#0
+#
+
 ### @Component / @Service / @Repository / @Controller
 
 - @Component : Spring에서 가장 기본적인 Bean 정의 어노테이션이다. Spring 컨테이너가 클레스를 자동으로 감지하고 빈으로 등록할수 있다.
