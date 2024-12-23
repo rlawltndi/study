@@ -25,4 +25,28 @@
 3. CHECK : 특정 열의 값이 주어진 조건을 만족하는지 확인한다.
 4. DEFAULT : 특정 열의 기본값을 설정한다.
 5. FOREIGN KEY : 다른 테이블과의 관계를 정의하고, 참조 무결성을 유지한다.
+#
+```SQL
+-- entity 무결성 : PRIMARY KEY 사용
+CREATE TABLE 학생 (
+  student_id INT PRIMARY KEY,
+  name VARCHAR(50),
+  age INT
+)
 
+-- 참조 무결성 : FOREIGN KEY 사용
+CREATE TABLE 주문 (
+  order_id INT PRIMARY KEY,
+  customer_id INT,
+  order_date DATE,
+  FOREIGN KEY(customer_id) REFERENCES 고객(customer_id)
+)
+
+-- 도메인 무결성 : CHECK 사용
+CREATE TABLE 제품(
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100),
+    price DECIMAL(10, 2),
+    CONSTRAINT price_check CHECK (price > 0)
+)
+```
