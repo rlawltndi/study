@@ -2,7 +2,8 @@
 
 - 알고리즘 (순서도) : 프로그램을 개발하는 논리적인 절차
 - 세미콜론( ; ) : 문장의 끝을 의미하는 마침표
-- #include <studio.h> : 데이터 입/출력을 위해 studio.h파일을 현재 파일에 포함 -> 출력함수 printf() 사용 가능
+- #include <studio.h> : 데이터 입/출력을 위해 studio.h파일을 현재 파일에 포함  
+  -> 출력함수 printf() 사용 가능
   - #include [#전처리기(먼저 처리하는 기호), include : 포함하다. ]  
   : 외부 파일을 현재 파일로 포함시키기 위해 사용하는 선형처리 지시자
   - studio.h : STanDard Input Output(표준 입출력) 헤더 파일  
