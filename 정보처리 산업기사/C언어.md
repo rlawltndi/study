@@ -47,5 +47,34 @@ int main(){
 }
 ```
 
+### 변수 명명법
+- 변수 이름의 일관성을 유지하여 코드의 가독성을 높여 이해하기 쉽고, 유지보수를 용이하기 위해 생긴 규칙
+- 어떤 방법이 가장 좋은 것이 아닌 프로젝트의 상황에 따라 팀에서 결정하여 개발자들이 규칙을 따라 작성
+
+1. Camel Casing (카멜 표기법)
+- 소문자로 시작
+- 단어 사이의 단락을 대문자로 표기
+- ex) String camelCasing; , int size;
+2. Pasacl Casing (파스칼 표기법)
+- 대문자로 시작
+- 단어 사이의 단락을 다문자로 표기
+- ex) String PascalCasing; , int Size;
+3. Snake Casing (스네이크 표기법)
+- 소문자로 시작
+- 단어 사이의 단락을 _로 표기 (_ : 언더스코어, 밑줄 문자)
+- ex) String scnake_casing; , int size;
+4. Hungarian Notation (헝가리안 표기법)
+- 이름 앞에 데이터타입을 명시
+- 데이터 타입은 정해진 약어로 표시
+- ex) String strHungarianCasing; , int nSize;
+5. GNU Naming Convention
+- 모든 문자를 소문자
+- 단어 사이 단락을 _ (언더스코어)로 표기
+- ex) String gnu_naming_convention , int size;
+6. 상수 표기법 : 대부분의 명명법에서 상수를 표기하는 방법은 거의 동일
+- 모든 문자 대문자
+- 단어 사이의 단락을 _(언더스코어)로 표기
+- ex) String MACRO_CASING; , int SIZE;
+
 ### 연산자
 ### 입/출력 함수
