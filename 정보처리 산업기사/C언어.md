@@ -19,7 +19,7 @@
   
 |종류|데이터 타입|크기|
 |---|------|----------|
-| 정수형   | short<br>int<br>long  | 2byte<br>4byte<br>8byte |
+| 정수형   | short<br>int<br>long<br>long long  | 2byte<br>4byte<br>4byte<br>8byte |
 
 ### 변수
 - 컴퓨터가 명령을 처리하는 도중 발생하는 값을 저장하기 위한 공간으로, 변할 수 있는 값을 의미한다.
