@@ -35,14 +35,14 @@ public class MyRepository{
 
 **특징**
 1. 웹 요청 처리
- - @controller가 붙은 클래스는 클라이언트의 HTTP 요청을 처리하는 메서드를 가지고 있으며, 해당 메서드는 요청에 맞는 응답을 반환한다.
- - ex) 사용자가 /home 경로로 요청을 보내면, 그 요청을 처리하는 메서드가 실행된다.
+  - @controller가 붙은 클래스는 클라이언트의 HTTP 요청을 처리하는 메서드를 가지고 있으며, 해당 메서드는 요청에 맞는 응답을 반환한다.
+  - ex) 사용자가 /home 경로로 요청을 보내면, 그 요청을 처리하는 메서드가 실행된다.
 2. MVC 패턴 구현
- - Spring MVC(Model - View - Controller)아키텍처에서 Controller 역할을 맡는다.
- - 클라이언트의 요청을 받아서, 적절한 서비스 로직을 호출하고, 그 결과를 View에 전달하는 역할을 한다.
+  - Spring MVC(Model - View - Controller)아키텍처에서 Controller 역할을 맡는다.
+  - 클라이언트의 요청을 받아서, 적절한 서비스 로직을 호출하고, 그 결과를 View에 전달하는 역할을 한다.
 3. 메서드 매핑
- - @RequestMapping, @GetMapping, @PostMapping 등과 함께 사용되어 특정 URL 경로에 대한 HTTP 메서드 (POST, GET)와     해당 메서드를 매핑한다.
+  - @RequestMapping, @GetMapping, @PostMapping 등과 함께 사용되어 특정 URL 경로에 대한 HTTP 메서드 (POST, GET)와     해당 메서드를 매핑한다.
 4. 뷰 반환
-   - ;
+  - ;
    
  
