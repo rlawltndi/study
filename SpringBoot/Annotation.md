@@ -18,3 +18,15 @@ public class MyService{
   //service logic
 }
 ```
+
+- @Repository : 데이터 접근 계층을 나타내는 특수한 어노테이션, 데이터베이스와 상호작용하는 컴포넌트에 사용된다.
+```
+@Reopsitory
+public class MyRepository{
+ // 데이터베이스와의 상호작용 코드
+ public Product findById(Long id){
+ //SQL 쿼리 실행 도는 다른 데이터 접근 로직
+  return new Product(); //예시로 Product 객체 반환
+ }
+}
+```
