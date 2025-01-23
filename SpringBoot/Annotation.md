@@ -43,5 +43,6 @@ public class MyRepository{
 3. 메서드 매핑
  - @RequestMapping, @GetMapping, @PostMapping 등과 함께 사용되어 특정 URL 경로에 대한 HTTP 메서드 (POST, GET)와     해당 메서드를 매핑한다.
 4. 뷰 반환
+   - ;
    
  
