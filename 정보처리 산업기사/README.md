@@ -20,3 +20,6 @@
 - 유니 코드 : 16bit, 최대 65,536자 표현, 각 나라별 언어를 모두 표현하기 위해 나온 코드 체계이다.
 #
 - 알고리즘 : 논리적인 절차, 순서도
+#
+- DDL : 구조 정의 / CREATE, DROP, ALTER, TRUNCATE , RENAME
+- DML : 데이터 정의  / SELECT, INSERT, DELETE, UPDATE
