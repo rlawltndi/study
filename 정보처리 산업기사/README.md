@@ -23,3 +23,8 @@
 #
 - DDL : 구조 정의 / CREATE, DROP, ALTER, TRUNCATE , RENAME
 - DML : 데이터 정의  / SELECT, INSERT, DELETE, UPDATE
+#
+- Synonoym (시너님): 서로 다른 데이터가 동일한 해시 값을 가질 때 발생하는 현상(충돌)
+- Colision (컬리전): 서로 다른 데이터가 동일한 해시 주소를 가질 때 발생하는 현상(충돌)
+- Bucket : 데이터를 저장하는 기본 단위
+- Slot : 데이터가 저장되는 공간
