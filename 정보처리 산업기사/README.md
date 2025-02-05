@@ -101,7 +101,7 @@
 **결합도**  
 - 모듈 내부가 아닌 외부 모듈과의 연관도 또는 모듈 간의 상호의존성을 나타내는 정도이다.  
 **결합도의 유형**  
-Content > Common > External > Control > Stamp > Data 순으로 결합도가 낮아진다.
+- Content > Common > External > Control > Stamp > Data 순으로 결합도가 낮아진다.
 - 내용 결합도(Content Coupling) : 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도
 - 공통 결합도(Common Coupling) : 파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도
 - 외부 결합도(External Coupling) : 모듈이 다수의 관련 기능을 가질 때 모듈 안의 구성요소들이 그 기능을 순차적으로 수행할 경우의 결합도
@@ -112,7 +112,7 @@ Content > Common > External > Control > Stamp > Data 순으로 결합도가 낮�
 **응집도**  
 - 모듈의 독립성을 나타내는 개념으로, 모듈 내부 구성요소 간 연관 정도이다.  
 **응집도의 유형**  
-Coincidental < Logical < Temporal < Procedural < Communication < Sequential < Functional 순으로 응집도가 낮아진다.
+- Coincidental < Logical < Temporal < Procedural < Communication < Sequential < Functional 순으로 응집도가 낮아진다.
 - 우연적 응집도(Coincidental Cohension) : 서로 간에 어떠한 의미 있는 연관 관계도 없는 기능 요소로 구성될 경우의 응집도, 서로 다른 상위 모듈에 의해 호출되어 처리상의 연관성이 없는 서로 다른 기능을 수행할 경우의 응집도
 - 논리적 응집도(Logical Cohension) : 유사한 성격을 갖거나 특정 형태로 분류되는 처리 요소들이 한 모듈에서 처리되는 경우의 응집도
 - 시간적 응집도(Temporal Conhension) : 특정 시간에 처리되어야 하는 활동들을 한 모듈에서 처리할 경우의 응집도
